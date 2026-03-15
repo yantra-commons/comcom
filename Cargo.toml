@@ -1,6 +1,6 @@
 [package]
 name = "com-com"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Smart Arduino/microcontroller COM port manager with real-time monitoring, nicknames, and history"
 license = "MIT"
