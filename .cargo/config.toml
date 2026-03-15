@@ -1,0 +1,20 @@
+# ---------------------------------------------------------------------------
+# Windows users: if you get a linker error, you have two options:
+#
+# Option A — MSVC toolchain (recommended, no extra tools needed):
+#   Install "Build Tools for Visual Studio" from:
+#   https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022
+#   Then: rustup default stable-x86_64-pc-windows-msvc
+#
+# Option B — GNU toolchain via MSYS2:
+#   1. Install MSYS2 from https://www.msys2.org/
+#   2. In an MSYS2 terminal: pacman -S mingw-w64-x86_64-gcc
+#   3. Add C:\msys64\mingw64\bin to your PATH (System Environment Variables)
+#   4. rustup default stable-x86_64-pc-windows-gnu
+#
+# Uncomment the block below if you chose Option B and MSYS2 is not on your PATH:
+#
+# [target.x86_64-pc-windows-gnu]
+# linker = "C:\\msys64\\mingw64\\bin\\gcc.exe"
+# ar     = "C:\\msys64\\mingw64\\bin\\ar.exe"
+# ---------------------------------------------------------------------------
